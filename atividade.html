@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ DO BATMAN</title>
+    <link rel="shortcut icon" href="https://1000logos.net/wp-content/uploads/2021/10/Batman-Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="atividade.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="topoTitulo">
+            <h1>QUIZ DO BATMAN</h1>
+        </div>
+
+        <div class="caixasPerguntas">
+            <div class="agrupamentoPerguntas">
+                <div class="perguntaNumero1"><h3>Pergunta 1</h3></div>
+                <div class="section">
+                    <p>Qual foi a primeira aprição do Batman? </p>
+                    <h2 class="respostas">Escollha a sua Resposta</h2>
+                </div>
+                <div class="selecao">
+                    <select id="numero1">
+                        <option id="Opcao"> opções </option>
+                        <option value="0">1938</option>
+                        <option value="1">1940</option>
+                        <option value="0">1927</option>
+                        <option value="0">1949</option>
+                    </select>
+                </div>
+            </div>
+            <div class="agrupamentoPerguntas">
+                <div class="perguntaNumero2"><h3>Pergunta 2</h3></div>
+                <div class="section">
+                    <p>Qual é o nome do primeiro Robin ? </p>
+                    <h2 class="respostas">Escollha a sua Resposta</h2>
+                </div>
+                <div class="selecao">
+                    <select id="numero2">
+                        <option id="opcao"> opções </option>
+                        <option value="0">Tim Drake</option>
+                        <option value="0">Jason Todd</option>
+                        <option value="1">Dick Grayson</option>
+                        <option value="0">Damian Wayne</option>
+                    </select>
+                </div>
+            </div>
+            <div class="agrupamentoPerguntas">
+                <div class="perguntaNumero3"><h3>Pergunta 3</h3></div>
+                <div class="section">
+                    <p>Qual foi o primeiro filme do Batman ? </p>
+                    <h2 class="respostas">Escollha a sua Resposta</h2>
+                </div>
+                <div class="selecao">
+                    <select id="numero3">
+                        <option id="opcao"> opções </option>
+                        <option value="1">Batman - Tim Burton</option>
+                        <option value="0">The Batman - Matt Reeves</option>
+                        <option value="0">Batman Begins - Christopher Nolan</option>
+                        <option value="0">Batman Forever - Joel Schumacher</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="resultado" id="baixoResultado">
+            <label>Resultado</label>
+            <input type="text" name="" id="resultado2" readonly>
+            <button onclick="MostravalorDaSelect()"> Finalizar o Quiz!!</button><br><br>
+        </div>
+
+     
+
+        <script src="atividade.js"></script>
+    </div>
+</body>
+</html>

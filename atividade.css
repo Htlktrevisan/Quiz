@@ -1,0 +1,143 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(batman\ \(1\).webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 0;
+}
+
+.topoTitulo{
+    background-color: white;
+    font-size: 16px;
+
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 5%;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.caixasPerguntas{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.agrupamentoPerguntas{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin: 2% 2%;
+
+
+    width: 350px;
+    height: 250px;
+ 
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.perguntaNumero1, .perguntaNumero2, .perguntaNumero3{
+    font-size: 20px;
+    color: red;
+    
+    text-align: center;
+    align-items: center;
+    margin: auto;
+
+    max-width: 50%;
+    margin-top: 10px;
+}
+
+.section{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.section p {
+    font-size: 18px;
+    font-weight: 650;
+
+}
+
+.section h2{
+   font-size: 16px;
+   font-weight: 520;
+}
+
+.selecao{ 
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+
+}
+
+select{
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    background-color: black;
+
+    
+    color: white;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+option{
+    color: white;
+}
+
+.resultado{
+    background-color: white;
+    
+    max-width: 50%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 2%;
+    padding-top: 20px;
+
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.resultado label{
+    font-weight: 600;
+}
+
+.resultado input{
+    max-width: 25px;
+    height: 20px;
+
+    margin: 0% 2%;
+}
+
+.resultado button{
+    width: 170px;
+    height: 25px;
+
+    font-weight: 600;
+
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 20px;
+
+    transition: 0.5s;
+    cursor: pointer;
+
+  
+}
+
+.resultado button:hover{
+    background-color: black;
+    color: white;
+}
